@@ -22,5 +22,5 @@ As Metabox Easy To Use WordPress Metabox Framework
 - and **Custom** fields
 
 
-## (1.0)
+## V 1.0
 - Initial Release
