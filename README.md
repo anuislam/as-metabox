@@ -1,4 +1,4 @@
-# As Metabox
+# As Metabox (1.0)
 As Metabox Easy To Use WordPress Metabox Framework
 
 
@@ -20,3 +20,7 @@ As Metabox Easy To Use WordPress Metabox Framework
 - WP Editor
 - Color Picker
 - and **Custom** fields
+
+
+## (1.0)
+- Initial Release
