@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
 * As metabox core class

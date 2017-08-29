@@ -1,7 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
-* Text option
+* checkbox option
 */
 class As_metabox_option_checkbox extends As_metabox_option
 {

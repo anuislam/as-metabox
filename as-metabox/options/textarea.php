@@ -1,7 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
-* Text option
+* Textarea option
 */
 class As_metabox_option_textarea extends As_metabox_option
 {

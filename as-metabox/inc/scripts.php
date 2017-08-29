@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
+
 if (!function_exists('as_metabox_enqueue_scription')) {
 	function as_metabox_enqueue_scription(){
 

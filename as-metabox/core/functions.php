@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 function as_meta_get_group_option(){
 	if (empty($_POST) === false) {

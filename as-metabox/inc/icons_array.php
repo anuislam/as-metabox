@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 /**
 * Font Awesome 4.7 icons array
 * http://fontawesome.io/cheatsheet/

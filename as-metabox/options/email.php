@@ -1,7 +1,7 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 /**
-* Text option
+* Email option
 */
 class As_metabox_option_email extends As_metabox_option
 {

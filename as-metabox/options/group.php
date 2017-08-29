@@ -1,7 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
-* Text option
+* Group option
 */
 class As_metabox_option_group extends As_metabox_option
 {

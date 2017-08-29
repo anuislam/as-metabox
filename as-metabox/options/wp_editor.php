@@ -1,7 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
-* Text option
+* Wp Editor option
 */
 class As_metabox_option_wp_editor extends As_metabox_option
 {

@@ -1,4 +1,5 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 
 add_action('as_metabox_init', function (){

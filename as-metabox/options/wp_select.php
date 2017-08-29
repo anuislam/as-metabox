@@ -1,7 +1,7 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 /**
-* Text option
+* Wp Select option
 */
 class As_metabox_option_wp_select extends As_metabox_option
 {

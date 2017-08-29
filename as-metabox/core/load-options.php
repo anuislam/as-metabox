@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
+
 require_once(as_root_metabox.'/options/text.php');
 require_once(as_root_metabox.'/options/email.php');
 require_once(as_root_metabox.'/options/url.php');

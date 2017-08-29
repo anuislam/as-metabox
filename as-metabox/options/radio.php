@@ -1,7 +1,7 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 /**
-* Text option
+* Radio option
 */
 class As_metabox_option_radio extends As_metabox_option
 {

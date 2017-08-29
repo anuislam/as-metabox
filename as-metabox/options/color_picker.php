@@ -1,7 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 
 /**
-* Text option
+* color_picker option
 */
 class As_metabox_option_color_picker extends As_metabox_option
 {

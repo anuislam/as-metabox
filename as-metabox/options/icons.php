@@ -1,7 +1,7 @@
 <?php
-
+if ( ! defined( 'ABSPATH' ) ) { die; } 
 /**
-* Text option
+* icon option
 */
 class As_metabox_option_icon extends As_metabox_option
 {
