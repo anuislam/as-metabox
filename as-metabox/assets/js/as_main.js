@@ -339,7 +339,6 @@ $('.as_meta_auto_complete_outer .as_meta_wp_select_ajax').live('change keyup pas
               '</li>');
       }
 
-      thisval.find('.as_meta_auto_complete_outer ul.as_meta_auto_complete_select').html('').css('display', 'none');
 
     });
 
