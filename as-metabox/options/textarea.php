@@ -26,7 +26,7 @@ class As_metabox_option_textarea extends As_metabox_option
 	}
 	
 	public function sanitize_as_metadata($data)	{
-		return wp_kses_post($data);
+		return sanitize_text_field($data);
 	}
 
 }

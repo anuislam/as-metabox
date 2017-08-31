@@ -50,6 +50,11 @@ class="as_range_slider_option <?php echo $this->html_class(); ?>"
 		return ($chack === true) ? true : false ;
 	}
 	
-
+	public function sanitize_as_metadata($data)	{
+		if (is_numeric($data) === false) {
+		    return (int)$data;
+		}
+		
+	}
 
 }

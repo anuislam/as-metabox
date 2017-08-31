@@ -27,4 +27,8 @@ class As_metabox_option_datepicker extends As_metabox_option
 		<?php
 	}
 
+	public function sanitize_as_metadata($data)	{
+		return sanitize_text_field($data);
+	}
+
 }

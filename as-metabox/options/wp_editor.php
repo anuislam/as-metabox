@@ -32,6 +32,10 @@ class As_metabox_option_wp_editor extends As_metabox_option
 		<?php
 	}
 	
+	public function validation($value){
+		return true;
+	}
+	
 	public function sanitize_as_metadata($data)	{
 		return wp_kses_post($data);
 	}

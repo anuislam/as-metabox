@@ -145,6 +145,7 @@ $options = (isset($this->as_field['options'])) ? $this->as_field['options'] : nu
 		$ret_data = array();
 		if (is_array($data)) {
 			foreach ($data as $key => $value) {
+				$key = sanitize_key($key);
 				$ret_data[$key] = sanitize_text_field($value);
 			}
 		}

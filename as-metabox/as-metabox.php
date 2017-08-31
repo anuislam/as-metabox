@@ -2,7 +2,7 @@
 if ( ! defined( 'ABSPATH' ) ) { die; } 
 /*
 Plugin Name: As Metabox
-Plugin URI: http://wordpress.org/plugins/as-metabox/
+Plugin URI: https://wordpress.org/plugins/as-metabox/
 Description: As Metabox Easy To Use WordPress Metabox Framework.
 Author: anuislam
 Version: 1.0

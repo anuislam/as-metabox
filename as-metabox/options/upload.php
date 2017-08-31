@@ -56,7 +56,9 @@ class As_metabox_option_upload extends As_metabox_option
 
 
 	public function sanitize_as_metadata($data)	{
-		return (int)$data;
+		if (is_numeric($data)) {
+			return (int)$data;
+		}		
 	}
 	
 }

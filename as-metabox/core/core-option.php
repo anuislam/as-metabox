@@ -92,11 +92,12 @@ class As_metabox_option
 		return true;
 	}
 	
-	public function save($post_id, $kye, $value){
-	update_post_meta(
-		$post_id,
-		$kye,
-		$value);
+	public function save($post_id, $key, $value){
+		$key = sanitize_key($key);
+		update_post_meta(
+			$post_id,
+			$key,
+			$value);
 	}
 	
 	public function dateconfig(){

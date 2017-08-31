@@ -38,7 +38,9 @@ class As_metabox_option_number extends As_metabox_option
 	}
 	
 	public function sanitize_as_metadata($data)	{
-		return (int)$data;
+		if (is_numeric($data) === false) {
+		    return (int)$data;
+		}		
 	}
 
 }

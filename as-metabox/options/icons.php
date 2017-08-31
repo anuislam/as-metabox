@@ -71,11 +71,5 @@ class As_metabox_option_icon extends As_metabox_option
 	public function sanitize_as_metadata($data)	{
 		return sanitize_html_class($data);
 	}
-	public function save($post_id, $kye, $value)	{
-		update_post_meta(
-				$post_id,
-				$kye,
-				$value);
-	}
 
 }

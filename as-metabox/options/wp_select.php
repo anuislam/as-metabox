@@ -53,8 +53,7 @@ class As_metabox_option_wp_select extends As_metabox_option
 
 
 
-	public function validation($value)
-	{
+	public function validation($value){
 		return true;
 	}
 
@@ -63,7 +62,9 @@ class As_metabox_option_wp_select extends As_metabox_option
 		$data = @unserialize($data);
 		if (is_array($data) === true) {
 			foreach ($data as $key => $value) {
-				$valdata[] = (int)$value;
+				if (is_numeric($value)) {					
+					$valdata[] = (int)$value;
+				}
 			}
 		}
 		return $valdata;
