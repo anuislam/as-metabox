@@ -14,7 +14,7 @@ function as_meta_get_group_option(){
 		if (isset($_POST['data']) === true) {
 			$as_field = (empty($_POST['data']) === false) ? (array)$_POST['data'] : false ;?>
     <div class="as_metabox_group_items" >
-     <h3><a href="" data-get-text="as-return-selector" data-return-text="<?php echo (isset($as_field['tabs_title'])) ? $as_field['tabs_title'] : null ; ?>">
+     <h3><a href="" data-get-text="as-return-selector" data-return-text="<?php echo (isset($as_field['tabs_title_field'])) ? sanitize_html_class($as_field['tabs_title_field']) : null ; ?>">
       <?php echo (isset($as_field['tabs_title'])) ? $as_field['tabs_title'] : 'Tab Title' ; ?>
      </a></h3>
       <div class="as_metabox_group_content"><?php

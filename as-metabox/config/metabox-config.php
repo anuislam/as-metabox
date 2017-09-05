@@ -22,26 +22,26 @@ add_action('as_metabox_init', function (){
 						'type'  				=> 'group',
 						'title' 				=> __('Group Demo', 'asm'),
 						'desc' 					=> __('Group Demo For Slider', 'asm'),
-						'tabs_title_field'		=> 'slider-title', // Return a field id for tab title text (note) support only text, url, email like text field
+						'tabs_title_field'		=> 'slider_title', // Return a field id for tab title text (note) support only text, url, email like text field
 						'tabs_title'			=> __('Slider Item', 'asm'), // You may change default tab title text
 						'button_text'			=> __('Add Slider', 'asm'), // You may change default add new button text
 						'remove_text'			=> __('Remove Slider', 'asm'), // You may change default Remove button text
 						'group_fields' 			=> array(
 										array(
-											'id'    			=> 'slider-title',
+											'id'    			=> 'slider_title',
 											'type'  			=> 'text',
 											'default' 			=> 'text',
 											'title' 			=> __('Slider Title', 'asm'),
 											'desc' 				=> __('Add Slider Title', 'asm')
 										),
 										array(
-											'id'    			=> 'slider-url',
+											'id'    			=> 'slider_url',
 											'type'  			=> 'url',
 											'title' 			=> __('Slider Url', 'asm'),
 											'desc' 				=> __('Add Slider Url', 'asm')
 										),
 										array(
-											'id'    			=> 'slider-image',
+											'id'    			=> 'slider_image',
 											'type'  			=> 'upload',
 											'title' 			=> __('Slider Image', 'asm'),
 											'desc' 				=> __('Add Slider Image', 'asm')
@@ -54,25 +54,25 @@ add_action('as_metabox_init', function (){
 						'type'  				=> 'group',
 						'title' 				=> __('Group Info Box Demo', 'asm'),
 						'desc' 					=> __('Group Demo For Info Box', 'asm'),
-						'tabs_title_field'		=> 'box-title', // Return a field id for tab title text (note) support only text, url, email like text field
+						'tabs_title_field'		=> 'box_title', // Return a field id for tab title text (note) support only text, url, email like text field
 						'tabs_title'			=> __('Info Box Item', 'asm'), // You may change default tab title text
 						'button_text'			=> __('Add Box', 'asm'), // You may change default add new button text
 						'remove_text'			=> __('Remove Box', 'asm'), // You may change default Remove button text
 						'group_fields' 			=> array(
 										array(
-											'id'    			=> 'box-title',
+											'id'    			=> 'box_title',
 											'type'  			=> 'text',
 											'title' 			=> __('Info Box Title', 'asm'),
 											'desc' 				=> __('Add Info Box Title', 'asm')
 										),
 										array(
-											'id'    			=> 'box-url',
+											'id'    			=> 'box_url',
 											'type'  			=> 'url',
 											'title' 			=> __('Info Box Url', 'asm'),
 											'desc' 				=> __('Add Info Box Url', 'asm')
 										),
 										array(
-											'id'    			=> 'slider-textarea',
+											'id'    			=> 'slider_textarea',
 											'type'  			=> 'textarea',
 											'title' 			=> __('Slider Info Box Textarea', 'asm'),
 											'desc' 				=> __('Add Info Box Textarea', 'asm')

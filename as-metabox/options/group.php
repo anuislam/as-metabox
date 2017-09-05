@@ -46,7 +46,7 @@ $a1 = 1;
 
     <div class="as_metabox_group_items" >
 
-     <h3><a href="" data-get-text="as-return-selector" data-return-text="<?php echo (isset($this->as_field['tabs_title_field'])) ? $this->as_field['tabs_title_field'] : null ; ?>">
+     <h3><a href="#" data-get-text="as-return-selector" data-return-text="<?php echo (isset($this->as_field['tabs_title_field'])) ? sanitize_html_class($this->as_field['tabs_title_field']) : null ; ?>">
 
       <?php echo (isset($this->as_field['tabs_title_field'])) ? @$value[$this->as_field['tabs_title_field']] : null ; ?>
 

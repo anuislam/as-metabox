@@ -251,7 +251,9 @@ ul.as_inline_option li.as_image_prev_option img{
 }
 
 .as_metabox_group_option_accordion .as_metabox_group_items .ui-accordion-header{
-	height: 35px;
+    display: block;
+    overflow: hidden;
+    background: rgba(231, 220, 220, 0.2);
 	margin: 5px 0;
 	line-height: 38px;
 	cursor: move;
@@ -411,7 +413,7 @@ ul.as_meta_icon_items li:hover{
 }
 
 .ui-dialog .ui-dialog-buttonpane button.as_meta_btn{
-    background-color: #0085ba;
+    background: #0085ba !important;
     color: #fff;
 }
 
